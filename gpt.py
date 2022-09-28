@@ -2,7 +2,7 @@
 
 import openai,json
 
-openai.api_key = "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"
+openai.api_key = "___YOUR---API---KEY___"
 def gpt_career(class_current,subjects,mindset,interests):
   response = openai.Completion.create(
     engine="text-davinci-002",
